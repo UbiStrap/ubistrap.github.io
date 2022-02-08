@@ -1,0 +1,25 @@
+.splash img {
+  position: absolute;
+  top: 170px;
+  left: calc(50% - 700px);
+  width: 770px;
+  height: 550px;
+  opacity: 0.08;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+.duke_chapel img {
+  position: absolute;
+  top: 630px;
+  left: calc(50%);
+  width: 250px;
+  height: 275px;
+  opacity: 0.08;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}

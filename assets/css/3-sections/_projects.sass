@@ -1,0 +1,40 @@
+.project-container
+  margin: auto
+  width: 750px
+  a
+    margin: auto
+    display: inline
+  .project-unit
+    width: 750px
+    margin: 0px auto 50px
+    height: 350px
+    display: block
+    background:
+      position: center center
+      repeat: no-repeat
+      size: cover
+    .project-overlay
+      transition: 0.2s
+      height: 100%
+      width: 100%
+      background-color: white
+      opacity: 0
+      h2
+        margin: 0px
+        position: relative
+        top: 100px
+      p
+        margin: 0px
+        color: black
+        position: relative
+        top: 100px
+    &:hover .project-overlay
+      opacity: 1
+      transition: 0.2s
+@media screen and (max-width: 840px)
+  .project-container
+    width: 75vw
+    .project-unit
+      width: 75vw
+      height: 35vw
+      margin-bottom: 25px
