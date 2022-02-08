@@ -1,0 +1,10 @@
+<header>
+  <div class="logo">
+    <a href="{{ site.github.url }}/">{{ site.data.settings.site-logo }}</a>
+  </div>
+  <nav>
+    {% for item in site.data.settings.menu %}
+      <a style="font-family: 'Roboto', sans-serif;" href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
+</header>
